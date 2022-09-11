@@ -14,6 +14,11 @@ wget -q https://raw.githubusercontent.com/linkkalian/root/main/vpsroot.sh && bas
 apt-get update && apt-get upgrade -y && update-grub && reboot
 ```
 
+### CARA ATASI IP VPS TIDAK MAU TERBACA SCRIPT
+```html
+apt-get install curl && apt-get install curl && apt-get install curl && apt-get install curl
+```
+
 ### INSTALL SCRIPT SEMUA VPN
 ```html
 apt-get update && apt-get upgrade -y && update-grub && sleep 2 && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt-get update && apt-get upgrade && apt-get install -y wget curl && apt-get install -y bzip2 gzip coreutils screen wget curl unzip && wget -q https://raw.githubusercontent.com/linkkalian/0/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
