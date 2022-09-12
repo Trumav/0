@@ -16,7 +16,7 @@ apt-get update && apt-get upgrade -y && update-grub && reboot
 
 ### CARA ATASI IP VPS TIDAK MAU TERBACA SCRIPT
 ```html
-apt-get install curl && apt-get install curl && apt-get install curl && apt-get install wget && apt-get install wget && apt-get install wget 
+apt-get install curl && apt-get install curl && apt-get install curl && apt-get install curl wget && apt-get install wget && apt-get install wget && apt-get install wget && apt-get install wget curl
 ```
 
 ### INSTALL SCRIPT SEMUA VPN
