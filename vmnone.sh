@@ -1,3 +1,4 @@
+#!/bin/bash
 # nginx vmnone.conf
 rm -fr /etc/nginx/conf.d/vmnone.conf
 cat >/etc/nginx/conf.d/vmnone.conf <<EOF
